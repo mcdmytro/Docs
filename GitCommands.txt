@@ -1,0 +1,13 @@
+### ===== Install and setup global settings =====
+  # Install
+    sudo apt-get install git
+  # Configure
+    git config --global user.name "mcdmytro"
+    git config --global user.email "dmytro.mekeshko@desy.de"
+
+### ===== Clone from GitHub =====
+  # A directory with the same name is to be created in ~/GitHub/ with all the files cloned/
+    git clone http://github.com/mcdmytro/<repository name>.git
+  #Ex.: 
+    git clone http://github.com/mcdmytro/Xilinx.git
+  
